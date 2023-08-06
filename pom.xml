@@ -13,7 +13,7 @@
 	<artifactId>demo</artifactId>
 	<version>0</version>
 	<name>demo</name>
-	<description>Demo project for Running SpringBoot in K8s</description>
+	<description>Demo project to be deployed in K8s</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -46,10 +46,10 @@
 					</image>
 				</configuration>
 			</plugin>
-			<!-- <plugin>
+			<plugin>
 				<groupId>org.graalvm.buildtools</groupId>
 				<artifactId>native-maven-plugin</artifactId>
-			</plugin> -->
+			</plugin>
 		</plugins>
 	</build>
 
